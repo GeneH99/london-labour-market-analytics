@@ -1,0 +1,18 @@
+// Tableau calculated fields
+// M1
+COUNTD(IF [priority_tier] = "High" THEN [borough_code] END)
+
+// M2
+COUNTD(IF [priority_tier] = "High" AND [robust_priority] = TRUE THEN [borough_code] END)
+
+// M3
+AVG([unemployment_rate_pct])
+
+// M4
+AVG([inactivity_rate_pct])
+
+// M5
+AVG([jobs_density])
+
+// M6
+MAX([priority_score])

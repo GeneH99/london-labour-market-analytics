@@ -1,0 +1,20 @@
+High Priority Boroughs =
+CALCULATE(DISTINCTCOUNT(Fact_Priority[borough_code]), Fact_Priority[priority_tier] = "High")
+
+Robust High Priority Boroughs =
+CALCULATE(DISTINCTCOUNT(Fact_Priority[borough_code]), Fact_Priority[priority_tier] = "High", Fact_Priority[robust_priority] = TRUE())
+
+Average Unemployment Rate % =
+AVERAGE(Fact_Labour_Market[unemployment_rate_pct])
+
+Average Inactivity Rate % =
+AVERAGE(Fact_Labour_Market[inactivity_rate_pct])
+
+Average Jobs Density =
+AVERAGE(Fact_Labour_Market[jobs_density])
+
+Selected Priority Score =
+MAX(Fact_Priority[priority_score])
+
+Selected Priority Rank =
+MIN(Fact_Priority[priority_rank])
