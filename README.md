@@ -17,12 +17,19 @@ This package contains the analytical assets for the London Labour Market BI port
 
 ## Analytical chain
 
-07E — Cluster validation & interpretation  
-08A — Priority framework  
-08B — Borough priority score  
-08C — Priority tiers & robustness  
-08D — Intervention mapping  
-08E — Final recommendations
+## Analytical Chain
+
+**Cluster Validation & Interpretation**  
+↓  
+**Priority Framework**  
+↓  
+**Borough Priority Score**  
+↓  
+**Priority Tiers & Robustness**  
+↓  
+**Intervention Mapping**  
+↓  
+**Final Recommendations**
 
 ## Priority methodology
 
